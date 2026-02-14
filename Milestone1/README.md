@@ -30,5 +30,5 @@ BMI = \frac{weight\ (kg)}{height\ (m)^2}
 [View Live App on Hugging Face](https://huggingface.co/spaces/Shaaron2410/AI_Fitness_Plan_Generator)
 
 ## 📸 Screenshots
-![Application UI](../main1.png)
-![BMI Calculation Result](../main2.png)
+![Application UI](Screenshots/main1.png)
+![BMI Calculation Result](Screenshots/main2.png)
