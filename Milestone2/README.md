@@ -33,6 +33,6 @@ Formatting Template: Provides a one-shot example to guide the AI in producing cl
 [View Live App on Hugging Face](https://huggingface.co/spaces/Shaaron2410/AI_Fitness_Plan_Generator_Dup)
 
 ## 📸 Screenshots
-![Application UI](Screenshots_2/main3.png)
+![Application UI](Screenshots/main3.png)
 ![Plan Generation Result](Screenshots/main4.png)
 ![Plan Generation Result](Screenshots/main5.png)
