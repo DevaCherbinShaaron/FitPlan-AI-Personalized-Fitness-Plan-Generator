@@ -34,5 +34,5 @@ Formatting Template: Provides a one-shot example to guide the AI in producing cl
 
 ## 📸 Screenshots
 ![Application UI](Screenshots_2/main3.png)
-![Plan Generation Result](Screenshots_2/main4.png)
-![Plan Generation Result](Screenshots_2/main5.png)
+![Plan Generation Result](Screenshots/main4.png)
+![Plan Generation Result](Screenshots/main5.png)
