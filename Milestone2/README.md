@@ -14,10 +14,10 @@ Why Mistral?
 
 ## ✍️ Prompt Design Explanation
 The "Secret Sauce" of this application is the Dynamic Prompt Constructor. The prompt is engineered using the following components:
- **Role Prompting**: Instructs the AI to act as a "Certified Professional Fitness Trainer."
- **Context Injection**: Dynamically passes user-specific data (Name, BMI Category, Fitness Goal, Level, and Equipment).
- **Structured Constraints**: Explicitly commands the model to divide the plan into exactly 5 days and forbids medical advice or conversational filler.
- **Formatting Template**: Provides a one-shot example to guide the AI in producing clean, bulleted lists.
+1. **Role Prompting**: Instructs the AI to act as a "Certified Professional Fitness Trainer."
+2. **Context Injection**: Dynamically passes user-specific data (Name, BMI Category, Fitness Goal, Level, and Equipment).
+3. **Structured Constraints**: Explicitly commands the model to divide the plan into exactly 5 days and forbids medical advice or conversational filler.
+4. **Formatting Template**: Provides a one-shot example to guide the AI in producing clean, bulleted lists.
 
 ## 🛠️ Steps Performed
 1. **API Integration**: Configured the HuggingFaceHub Inference Client and implemented secure authentication using HF_TOKEN stored in environment secrets.
