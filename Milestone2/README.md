@@ -1,4 +1,4 @@
-# 💪 FitPlan AI - Milestone 1: Core AI Model Integration
+# 💪 FitPlan AI - Milestone 2: Core AI Model Integration
 
 **🎯 Objective**
 The objective of this milestone was to integrate a Large Language Model (LLM) into the FitPlan AI application. This phase involved establishing a connection to a high-performance model, designing a structured prompt engineering system, and generating dynamic, personalized workout plans based on the user metrics collected in Milestone 1.
