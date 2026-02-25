@@ -29,10 +29,10 @@ Formatting Template: Provides a one-shot example to guide the AI in producing cl
 3. **Accelerate**: Optimized model loading and memory management.
 4. **Streamlit**: Updated to handle multi-page session states and markdown rendering.
 
-🚀 Live Application
+## 🚀 Live Application
 [View Live App on Hugging Face](https://huggingface.co/spaces/Shaaron2410/AI_Fitness_Plan_Generator_Dup)
 
-📸 Screenshots
+## 📸 Screenshots
 ![Application UI](Screenshots/main3.png)
 ![Plan Generation Result](Screenshots/main4.png)
 ![Plan Generation Result](Screenshots/main5.png)
