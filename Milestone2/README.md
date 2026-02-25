@@ -1,15 +1,15 @@
 # 💪 FitPlan AI - Milestone 2: Core AI Model Integration
 
-**🎯 Objective**
+## 🎯 Objective
 The objective of this milestone was to integrate a Large Language Model (LLM) into the FitPlan AI application. This phase involved establishing a connection to a high-performance model, designing a structured prompt engineering system, and generating dynamic, personalized workout plans based on the user metrics collected in Milestone 1.
 
-**🧠 Model Selection**
+## 🧠 Model Selection
 For this phase, the Mistral-7B-Instruct-v0.2 model was selected via the Hugging Face Inference API.
 Model Name: mistralai/Mistral-7B-Instruct-v0.2
 Why Mistral?
 -It offers superior reasoning capabilities and instruction-following compared to smaller encoder-decoder models, ensuring that workout plans are logical, safe, and formatted correctly.
 
-**✍️ Prompt Design Explanation**
+## ✍️ Prompt Design Explanation
 The "Secret Sauce" of this application is the Dynamic Prompt Constructor. The prompt is engineered using the following components:
 Role Prompting: Instructs the AI to act as a "Certified Professional Fitness Trainer."
 Context Injection: Dynamically passes user-specific data (Name, BMI Category, Fitness Goal, Level, and Equipment).
