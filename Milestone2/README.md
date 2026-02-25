@@ -18,9 +18,13 @@ Formatting Template: Provides a one-shot example to guide the AI in producing cl
 
 ## 🛠️ Steps Performed
 1.**API Integration**: Configured the HuggingFaceHub Inference Client and implemented secure authentication using HF_TOKEN stored in environment secrets.
+
 2.**Modular Code Structure**: Refactored the application into a clean architecture with separate files for logic (prompt_builder.py), model handling (model.py), and UI (app.py).
+
 3.**Inference Error Handling**: Implemented try-except blocks to handle API timeouts or connection issues gracefully, providing user feedback instead of app crashes.
+
 4.**Dynamic Generation**: Connected the Milestone 1 BMI logic to the LLM to adjust workout intensity (e.g., lower impact exercises for higher BMI categories).
+
 5.**Enhanced Deployment**: Re-deployed the updated code to Hugging Face Spaces with the necessary secrets and dependencies.
 
 ## 💻 Technologies Used
