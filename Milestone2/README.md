@@ -5,16 +5,19 @@ The objective of this milestone was to integrate a Large Language Model (LLM) in
 
 ## 🧠 Model Selection
 For this phase, the Mistral-7B-Instruct-v0.2 model was selected via the Hugging Face Inference API.
+
 Model Name: mistralai/Mistral-7B-Instruct-v0.2
+
 Why Mistral?
+
 -It offers superior reasoning capabilities and instruction-following compared to smaller encoder-decoder models, ensuring that workout plans are logical, safe, and formatted correctly.
 
 ## ✍️ Prompt Design Explanation
 The "Secret Sauce" of this application is the Dynamic Prompt Constructor. The prompt is engineered using the following components:
-Role Prompting: Instructs the AI to act as a "Certified Professional Fitness Trainer."
-Context Injection: Dynamically passes user-specific data (Name, BMI Category, Fitness Goal, Level, and Equipment).
-Structured Constraints: Explicitly commands the model to divide the plan into exactly 5 days and forbids medical advice or conversational filler.
-Formatting Template: Provides a one-shot example to guide the AI in producing clean, bulleted lists.
+ **Role Prompting**: Instructs the AI to act as a "Certified Professional Fitness Trainer."
+ **Context Injection**: Dynamically passes user-specific data (Name, BMI Category, Fitness Goal, Level, and Equipment).
+ **Structured Constraints**: Explicitly commands the model to divide the plan into exactly 5 days and forbids medical advice or conversational filler.
+ **Formatting Template**: Provides a one-shot example to guide the AI in producing clean, bulleted lists.
 
 ## 🛠️ Steps Performed
 1. **API Integration**: Configured the HuggingFaceHub Inference Client and implemented secure authentication using HF_TOKEN stored in environment secrets.
