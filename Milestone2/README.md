@@ -4,13 +4,14 @@
 The objective of this milestone was to integrate a Large Language Model (LLM) into the FitPlan AI application. This phase involved establishing a connection to a high-performance model, designing a structured prompt engineering system, and generating dynamic, personalized workout plans based on the user metrics collected in Milestone 1.
 
 ## 🧠 Model Selection
-For this phase, the Mistral-7B-Instruct-v0.2 model was selected via the Hugging Face Inference API.
+For this phase, the Qwen 2.5 7B Instruct model was selected via the Hugging Face Inference API.
 
-Model Name: mistralai/Mistral-7B-Instruct-v0.2
+Model Name: Qwen/Qwen2.5-7B-Instruct
 
-Why Mistral?
-
--It offers superior reasoning capabilities and instruction-following compared to smaller encoder-decoder models, ensuring that workout plans are logical, safe, and formatted correctly.
+Why Qwen 2.5?
+1. **High Availability**: Qwen 2.5 is open-access and highly stable on the Hugging Face Inference API.
+2. **Superior Logic**: It excels at following complex, multi-step instructions and maintaining a consistent format across long outputs like 5-day plans.
+3. **Native Chat Support**: Fully compatible with the chat_completion API, ensuring reliable communication between the app and the model.
 
 ## ✍️ Prompt Design Explanation
 The "Secret Sauce" of this application is the Dynamic Prompt Constructor. The prompt is engineered using the following components:
