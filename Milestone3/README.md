@@ -31,6 +31,6 @@ The authentication logic is divided into modular components to ensure maintainab
 5. **Render.com**: Cloud platform for hosting the backend application.
 
 ## 🚀 Live Application
-🔗 [View Live App on](https://fitness-ai-dsgq.onrender.com)
+🔗 [View Live App](https://fitness-ai-dsgq.onrender.com)
 
 
