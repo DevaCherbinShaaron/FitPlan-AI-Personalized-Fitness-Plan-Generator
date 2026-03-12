@@ -3,9 +3,6 @@
 ## 🎯 Objective
 The objective of this milestone was to implement a robust, secure authentication and user verification system. This phase focused on transitioning from basic access to a professional-grade login flow, incorporating password security, session management, and Multi-Factor Authentication (MFA) via OTP.
 
-## 🚀 Live Application
-🔗 [View Live App on](https://fitness-ai-dsgq.onrender.com)
-
 ## 🧠 Security & Auth Architecture
 For this phase, a secure backend architecture was implemented using Flask and industry-standard security practices.
 1. **Password Security**: Passwords are never stored in plain text. We implemented SHA-256 Hashing with dynamic salt, ensuring that even if the database is compromised, individual passwords remain protected.
@@ -32,3 +29,8 @@ The authentication logic is divided into modular components to ensure maintainab
 3. **SendGrid API**: High-reliability email delivery service for OTPs.
 4. **SHA-256 with Salt**: Standard cryptographic hashing for credential protection.
 5. **Render.com**: Cloud platform for hosting the backend application.
+
+## 🚀 Live Application
+🔗 [View Live App on](https://fitness-ai-dsgq.onrender.com)
+
+
