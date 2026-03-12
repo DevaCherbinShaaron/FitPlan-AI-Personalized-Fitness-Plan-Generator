@@ -33,4 +33,15 @@ The authentication logic is divided into modular components to ensure maintainab
 ## 🚀 Live Application
 🔗 [View Live App](https://fitness-ai-dsgq.onrender.com)
 
+## 📸 Screenshots
+![Working](Screenshots/main3.png)
+![Working1](Screenshots/main4.png)
+![Working2](Screenshots/main5.png)
+![Working3](Screenshots/main3.png)
+![Working4](Screenshots/main4.png)
+![Working5](Screenshots/main5.png)
+![Working6](Screenshots/main4.png)
+![Working7](Screenshots/main5.png)
+
+
 
